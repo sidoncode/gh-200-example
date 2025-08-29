@@ -2,11 +2,11 @@ name: Node.js CI with Cron + Secrets + CodeQL
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "" ]
   schedule:
-    - cron: "30 0 * * *" # runs daily at 00:30 UTC
+    - 
 
 jobs:
   build-and-test:
